@@ -1,0 +1,46 @@
+body{
+    background:url("bg4.jpg");
+    background-size:cover;
+}h1 {
+    font-size: 50px;
+    
+        font-family: "Roboto Mono";
+    font-weight: 1000;
+  
+    text-align: center;
+    line-height: 240px;
+  
+    padding: 0;
+    margin: 0;
+  }
+  .time {
+    font-family: "Roboto Mono" ;
+    font-weight: 600;
+    font-size: 54px;
+  }
+    .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        height: 290px;
+        width: 290px;
+      
+        border: 2px solid;
+        border-radius: 60%;
+      
+  }button {
+    cursor:pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  #playbutton {
+    display: block;
+  }
+  
+  #pausebutton {
+    display: none;
+  }
